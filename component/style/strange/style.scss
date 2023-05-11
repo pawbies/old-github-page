@@ -1,0 +1,50 @@
+html {
+  height: 100vh;
+
+  body {
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5px;
+    color: white;
+    overflow: hidden;
+    animation-fill-mode: forwards;
+
+    button {
+      margin-left: auto;
+      margin-right: auto;
+      display: block;
+    }
+  }
+}
+
+@keyframes text-animation {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes end-animation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes picture-animation {
+  0% {
+    opacity: 0;
+  }
+  60% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}

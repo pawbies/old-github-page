@@ -1,0 +1,22 @@
+body {
+  background-image: url("../background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 95%;
+}
+body fieldset {
+  color: white;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  transform: translateY(75%);
+}
+body fieldset form {
+  text-align: center;
+  display: grid;
+}
+body fieldset form output {
+  width: 100%;
+}
+
+/*# sourceMappingURL=style.css.map */

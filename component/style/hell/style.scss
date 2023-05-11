@@ -1,0 +1,27 @@
+html {
+    width: 99%;
+    height: 95%;
+    body {
+        width: 100%;
+        height: 100%;
+        background-image: url("../../image/hell.png");
+        background-repeat: no-repeat;
+        background-size: auto;
+
+
+        main {
+            text-align: center;
+            display: block;
+            width: 50%;
+            margin-left: auto;
+            margin-right: auto;
+
+            div {
+                button {
+                    background-color: black;
+                    color: gray;
+                }
+            }
+        }
+    }
+}

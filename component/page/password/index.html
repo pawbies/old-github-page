@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password generator</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+    <fieldset>
+        <legend>Password generator</legend>
+        <form>
+            <input type="text" id="output" readonly>
+            <label for="lenght">Lenght</label>
+            <input type="number" id="lenght" required>
+            <label for="special">Special Characters</label>
+            <input type="checkbox" id="special">
+            <label for="num">Numbers</label>
+            <input type="checkbox" id="num">
+            <button id="go">Get Password</button>
+        </form>
+    </fieldset>
+
+    <script src="script/script.js"></script>
+</body>
+</html>

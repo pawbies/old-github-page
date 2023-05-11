@@ -1,0 +1,51 @@
+@font-face {
+    font-family: 'Sysfont';
+    src: url('sysfont.woff2') format('woff2'),
+    url('sysfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: monobit;
+    src: url(monobit.ttf);
+    font-weight: bold;
+  }
+
+body {
+    font-family: Sysfont, serif;
+    background-color: black;
+    .layout {
+        width: 100%;
+    
+        display: grid;
+        grid:
+        "header header header" auto
+        "leftSide body rightSide" 1fr
+        "footer footer footer" auto
+        / 20% auto 20%;
+        gap: 8px;
+    }
+    
+    .header { grid-area: header; border: thin solid black; background-color: gray; }
+    .leftSide { grid-area: leftSide; border: thin solid black; background-color: gray; text-align: center; }
+    .body { grid-area: body; border: thin solid black; background-color: gray;
+        p {
+            width: fit-content;
+        }
+    }
+    .rightSide { grid-area: rightSide; border: thin solid black; background-color: gray; }
+    .footer { grid-area: footer; border: thin solid black; background-color: gray; }
+    
+    #logo {
+        width: 100%;
+    }
+
+    h1 {
+        text-align: center;
+        color: red;
+    }
+    .rightSide {
+        text-align: center;
+    }
+
+}

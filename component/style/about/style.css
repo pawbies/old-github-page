@@ -1,0 +1,21 @@
+body {
+  background-image: url("");
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+body h1 {
+  text-align: center;
+}
+body main {
+  text-align: center;
+}
+body #ceo {
+  position: relative;
+  left: 75%;
+}
+body #ceo #schmoser {
+  width: 25%;
+}
+
+/*# sourceMappingURL=style.css.map */

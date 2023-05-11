@@ -1,0 +1,19 @@
+body {
+  background-image: url("");
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  h1 {
+    text-align: center;
+  }
+  main {
+    text-align: center;
+  }
+  #ceo {
+    position: relative;
+    left: 75%;
+    #schmoser {
+      width: 25%;
+    }
+  }
+}

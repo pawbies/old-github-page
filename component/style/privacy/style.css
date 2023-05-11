@@ -1,0 +1,27 @@
+body {
+  background-color: #18FF74;
+  overflow: hidden;
+}
+body .layout {
+  width: 100%;
+  height: 100vh;
+  display: grid;
+  grid: "sidebar body" 100%/20% auto;
+  gap: 8px;
+}
+body .layout .sidebar {
+  grid-area: sidebar;
+  text-align: center;
+  border-right: thin solid black;
+}
+body .layout .body {
+  color: red;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url("../../image/no-privacy.png");
+  grid-area: body;
+  text-align: center;
+}
+
+/*# sourceMappingURL=style.css.map */

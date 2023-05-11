@@ -1,0 +1,26 @@
+body h1 {
+  text-align: center;
+}
+body img {
+  width: 100%;
+}
+body #dialog button {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+body #dialog .text {
+  border-bottom: thin solid black;
+  text-align: center;
+}
+body #res .text {
+  border-bottom: thin solid black;
+  text-align: center;
+}
+body #res button {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+/*# sourceMappingURL=style.css.map */

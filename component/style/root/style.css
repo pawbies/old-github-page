@@ -1,0 +1,62 @@
+@font-face {
+  font-family: "Sysfont";
+  src: url("sysfont.woff2") format("woff2"), url("sysfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: monobit;
+  src: url(monobit.ttf);
+  font-weight: bold;
+}
+body {
+  font-family: Sysfont, serif;
+  background-color: black;
+}
+body .layout {
+  width: 100%;
+  display: grid;
+  grid: "header header header" auto "leftSide body rightSide" 1fr "footer footer footer" auto/20% auto 20%;
+  gap: 8px;
+}
+body .header {
+  grid-area: header;
+  border: thin solid black;
+  background-color: gray;
+}
+body .leftSide {
+  grid-area: leftSide;
+  border: thin solid black;
+  background-color: gray;
+  text-align: center;
+}
+body .body {
+  grid-area: body;
+  border: thin solid black;
+  background-color: gray;
+}
+body .body p {
+  width: fit-content;
+}
+body .rightSide {
+  grid-area: rightSide;
+  border: thin solid black;
+  background-color: gray;
+}
+body .footer {
+  grid-area: footer;
+  border: thin solid black;
+  background-color: gray;
+}
+body #logo {
+  width: 100%;
+}
+body h1 {
+  text-align: center;
+  color: red;
+}
+body .rightSide {
+  text-align: center;
+}
+
+/*# sourceMappingURL=style.css.map */

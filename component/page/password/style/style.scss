@@ -1,0 +1,21 @@
+body {
+    background-image: url("../background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 95%;
+    fieldset {
+        color: white;
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+        transform: translateY(75%);
+
+        form {
+            text-align: center;
+            display: grid;
+            output {
+                width: 100%;
+            }
+        }
+    }
+}
