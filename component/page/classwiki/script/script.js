@@ -49,17 +49,17 @@ const alexanderf = new Character(
 );
 
 const elias = new Character(
-    "Elias was a magnificent, nearly mythical buffalo who roamed the Great Plains of North America during the late 1800s. He was known for his impressive size and strength, as well as his cunning intelligence and fearless spirit. Elias was hunted by many, but always managed to evade capture, becoming something of a legend among Native American tribes and pioneers alike. Despite his fierce reputation, many respected Elias as a symbol of the West's untamed wilderness, and his legacy endures to this day.",
+    "Introducing Elias, the magical fat seal! With his plump figure and twinkling eyes, Elias possesses the power to grant wishes. Gaze into his soulful eyes, make a heartfelt wish, and watch as he uses his enchantment to bring it to life. Found on a secret island, Elias brings joy and wonder to all who encounter him. His playful nature and mischievous spirit make him beloved by young and old alike. Elias is a cherished emissary, bridging the gap between our world and the realm of magic. Believe in his magic and let his enchantment brighten your day!",
     {
-        names: "elija, biffö",
+        names: "elias, seal",
         born: "25.12.2006",
         died: "-",
         class_: "tank",
         gender: "male",
         height: "170",
         hair: "brown",
-        culture: "the büffelreithers",
-        race: "buffalo"
+        culture: "seal but fat",
+        race: "seal"
     },
     "pictures/dd.png"
 );
