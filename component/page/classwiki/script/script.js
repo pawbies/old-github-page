@@ -49,7 +49,7 @@ const alexanderf = new Character(
 );
 
 const elias = new Character(
-    "Introducing Elias, the magical fat seal! With his plump figure and twinkling eyes, Elias possesses the power to grant wishes. Gaze into his soulful eyes, make a heartfelt wish, and watch as he uses his enchantment to bring it to life. Found on a secret island, Elias brings joy and wonder to all who encounter him. His playful nature and mischievous spirit make him beloved by young and old alike. Elias is a cherished emissary, bridging the gap between our world and the realm of magic. Believe in his magic and let his enchantment brighten your day!",
+    "Meet Elias, the devious, playful seal! With a cunning glint in his eyes and a knack for mischief, Elias is a master of pranks and laughter. His charismatic smile and wicked sense of humor keep everyone on their toes, while its rotund figure hides a mischievous nature that's hard to resist. Get ready for endless amusement and unpredictable antics with this sly and playful seal!",
     {
         names: "elias, seal",
         born: "25.12.2006",
@@ -67,7 +67,7 @@ const elias = new Character(
 const ju = new Character(
     "As a child, Ju necromancer spent most of his days alone, talking to the spirits that visited him while others shunned him. This led him to delve further into the world of magic, eventually mastering the art of necromancy. However, despite his power, he remained isolated, as the society feared and rejected him. He now spends his days in solitude, communing with the dead and longing for the company of humans who will not fear him.",
     {
-        names: "Julian",
+        names: "Julien",
         born: "unknown",
         died: "-",
         class_: "necromancer",
